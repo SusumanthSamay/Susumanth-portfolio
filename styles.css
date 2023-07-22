@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace&display=swap');
+
+* {
+    font-family: 'Hind', sons-serif;
+}
+
+.bannerBgImage {
+    height: 100vh;
+    background: url("assets/img/bannerImage.jpg") no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+
+.bannerText {
+    text-align: left;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+.bannerTitle {
+    font: size 4rem;
+}
+
+.bannerDesc {
+    font-size: 2rem;
+}
+
+.card {
+    cursor: pointer;
+}
+
+.card:hover {
+    background-color: #d87093;
+    border: 3px solid yellowgreen;
+}
+
+.bIcon {
+    width: 100%;
+    text-align: center;
+    font-size: 40px;
+
+}
+
+.img-fluid:hover {
+    border: 3px solid #9acd32;
+}
+
+.card-img-top {
+    height: 400px;
+}
