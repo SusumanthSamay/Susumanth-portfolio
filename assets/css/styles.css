@@ -2,10 +2,9 @@
 
 * {
     font-family: 'Hind', sons-serif;
+    background-color: #001F3F;
 }
-{
-background-color: #001F3F
-}
+
 .bannerBgImage {
     height: 100vh;
     background: url("assets/img/bannerImage.jpg");
