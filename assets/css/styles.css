@@ -3,12 +3,13 @@
 * {
     font-family: 'Hind', sons-serif;
 }
-
-
+{
+background-color: #001F3F
+}
 .bannerBgImage {
     height: 100vh;
     background: url("assets/img/bannerImage.jpg");
-    background-size: cover;
+    background-size: responsive;
     position: relative;
 }
 
